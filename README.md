@@ -14,7 +14,7 @@ Implementa **búsquedas locales** sobre permutaciones del QAP.
 ---
 
 ### 2️⃣ `02_Simulated_Annealing_QAP.ipynb`
-Desarrolla la metaheurística de **Recocido Simulado (Simulated Annealing)**.  
+Desarrolla la metaheurística de **Enfriamiento Simulado (Simulated Annealing)**.  
 - Parte de una solución inicial y acepta movimientos peores con cierta probabilidad dependiente de la **temperatura**.  
 - A medida que la temperatura baja, el algoritmo se vuelve más estricto y converge.  
 - Se estudia el efecto de parámetros como la temperatura inicial, el factor de enfriamiento y el número de iteraciones.
@@ -27,15 +27,5 @@ Implementa y compara tres **Algoritmos Genéticos (GA)** distintos aplicados al 
 - **CHC:** Variante con control de diversidad mediante distancia de Hamming.  
 - **GA Multimodal:** Usa *clearing* para mantener varios nichos de soluciones.
 
-Este notebook analiza el comportamiento de cada versión, comparando resultados, estabilidad y calidad media en distintas instancias del problema.
 
----
 
-## 📊 En conjunto
-
-Los tres notebooks muestran cómo distintas **metaheurísticas** —deterministas y estocásticas— pueden resolver el mismo problema desde enfoques distintos:
-- **Local Search:** Explora de forma intensiva una región del espacio.  
-- **Simulated Annealing:** Añade azar controlado para escapar de óptimos locales.  
-- **Genetic Algorithms:** Trabajan con una población de soluciones para mantener diversidad y mejorar globalmente.
-
----
